@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  mysql:
+    platform: linux/x86_64
+    image: mysql:8.0.27
+    ports:
+      - '3306:3306'
+    volumes:
+      - .data:/var/lib/mysql
+    environment:
+      - MYSQL_RANDOM_ROOT_PASSWORD=yes
+      - MYSQL_DATABASE=database
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=pass
