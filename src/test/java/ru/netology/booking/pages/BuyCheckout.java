@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 
-public class BankServicePage {
+public class BuyCheckout {
     private SelenideElement cardNumberField = $("[placeholder = '0000 0000 0000 0000']");
     private SelenideElement dateMonthField = $("[placeholder = '08']");
     private SelenideElement dateYearField = $("[placeholder = '22']");

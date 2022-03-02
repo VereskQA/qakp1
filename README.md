@@ -24,8 +24,8 @@
 6. Кликнуть на ОК
 7. Запустить приложение в терминале командой java -jar artifacts/aqa-shop.jar
 8. Открыть файл [BookingTest](src/test/java/ru/netology/booking/test/BookingTest.java)
-9. Запустить тесты сочетанием горячих клавишей Ctrl+Shift+F10 (Mac: Control+Shift+R)
-10. После прохождения всех тестов кликнуть на кнопку со слоником и подписью Open Gradle test report
+9. Запустить тесты сочетанием горячих клавишей Ctrl+Shift+F10 (Mac: Control+Shift+R) (Терминальная команда: gradlew clean test)
+10. После прохождения всех тестов кликнуть на кнопку со слоном и подписью Open Gradle test report
     для того, чтобы увидеть отчетность
 
 <h3>Документы для отчетности:</h3>
